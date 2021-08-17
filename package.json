@@ -1,6 +1,6 @@
 {
   "name": "dotenv-toml-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A secure webpack plugin that gives the ability to access environment variables via `process.env.*` defined in your `.env[.development|production].toml` files within your web applications built with webpack.",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/nasa8x/dotenv-toml-webpack#readme",
   "peerDependencies": {
     "webpack": ">=5.0.0"
+  },
+  "dependencies": {
+    "toml": "^3.0.0"
   }
 }
